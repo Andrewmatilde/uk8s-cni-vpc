@@ -66,6 +66,16 @@ spec:
       hostNetwork: true
       priorityClassName: system-node-critical
       hostPID: true
+      initContainers:
+        - name: cnivpc-init
+          image: uhub.service.ucloud.cn/uk8s/cni-vpc-init:2.0.0-alpha.5
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: CNI_INIT_OVERWRITE
+              value: "true"
+          volumeMounts:
+            - name: host-cni
+              mountPath: /opt/cni/
       containers:
         - name: cni-vpc-ipamd
           image: uhub.service.ucloud.cn/uk8s/cni-vpc-ipamd:1.2.0
