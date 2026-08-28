@@ -68,7 +68,7 @@ spec:
       hostPID: true
       initContainers:
         - name: cnivpc-init
-          image: uhub.service.ucloud.cn/uk8s/cni-vpc-init:2.0.0-alpha.5
+          image: uhub.service.ucloud.cn/uk8s/cni-vpc-init:2.0.0-alpha.5@sha256:65cb5cfc58171fd66a32eecb75f55f8624b2b87d44dd3d97a5fc9fb9993dae71
           imagePullPolicy: IfNotPresent
           env:
             - name: CNI_INIT_OVERWRITE
