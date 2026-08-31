@@ -37,11 +37,7 @@ func main() {
 }
 
 func run() error {
-	return runWithPaths(cniBinarySourcePath, cniBinaryTargetPath)
-}
-
-func runWithPaths(sourcePath, targetPath string) error {
-	same, err := checksame(sourcePath, targetPath)
+	same, err := checksame(cniBinarySourcePath, cniBinaryTargetPath)
 	if err != nil {
 		return err
 	}
@@ -54,10 +50,10 @@ func runWithPaths(sourcePath, targetPath string) error {
 		return err
 	}
 	if needReplace {
-		return copyCNIBinary(sourcePath, targetPath)
+		return copyCNIBinary(cniBinarySourcePath, cniBinaryTargetPath)
 	}
 
-	return installCNIBinaryIfMissing(sourcePath, targetPath)
+	return installCNIBinaryIfMissing(cniBinarySourcePath, cniBinaryTargetPath)
 }
 
 func checksame(sourcePath, targetPath string) (bool, error) {
