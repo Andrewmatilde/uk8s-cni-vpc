@@ -1,0 +1,118 @@
+{
+  "platform": "linux/amd64",
+  "installerVersion": "2.0.6",
+  "verifiedDate": "2026-09-15",
+  "validation": [
+    "real-container version output",
+    "first installation",
+    "same-version skip",
+    "preserve existing version by default",
+    "explicit overwrite version switch",
+    "installer SHA-256 matches 2.0.6 base",
+    "remote filesystem layers and runtime configuration match local"
+  ],
+  "preservedImage": {
+    "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.0-alpha.5",
+    "digest": "sha256:65cb5cfc58171fd66a32eecb75f55f8624b2b87d44dd3d97a5fc9fb9993dae71"
+  },
+  "images": [
+    {
+      "cniVersion": "1.3.0",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:1.3.0",
+      "digest": "sha256:88a357dd86f0504a719ff55aff6abc4201dcb754e21a16da9f7d9bfb13436e24",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:7b9ce4442272b0e409b8a41248a01463237ec036a56f415cca0e097eebf5783a",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "1.3.1",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:1.3.1",
+      "digest": "sha256:c0d15b38458f2d7ff172a03433edf98cace665bfba370a3bbb8d496881ea150c",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:db8ce6f5b4b9a95c94314d3cb4e2d68967407f35587d3a8d5c0b8b7fd539052a",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "1.3.2",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:1.3.2",
+      "digest": "sha256:3d6258c458c85ba7c541704274ecec6a835d986aded8f18c89d19618b75d6cbf",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:7ffdbfe654f390f40927c44c6c70ed30a15fdbb080df219d503ebbd6631eb301",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "1.3.3",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:1.3.3",
+      "digest": "sha256:82a6070a00b9cbe5adc1ca62e252fa87e167490ade5e5afb7ed30adf76216f1b",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:96011ee5b8eb2558bd1cc81203eaa4b87caa012fa33b9bfd9204fd54b65fd9db",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "1.3.4",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:1.3.4",
+      "digest": "sha256:87d74d49643d45d99c0d98e42061092bd5860272231f033a064647e17ca2db4d",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:1a9a21236160bf50ebb89277de2616bd0543d06e984476577beeab195806c9e5",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "1.3.5",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:1.3.5",
+      "digest": "sha256:9b9e29c728ae5c6020a82fa126f86bef8120095e2aca25a80d2299c910e81481",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:c45bb9a46faceb8e53b65bc8dc89d0f0d5bf78bcecb81b06adde7de3720a722c",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "1.3.6",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:1.3.6",
+      "digest": "sha256:03a165385626f175b51ade979fbd877f78c379a2f2f37b2c58f46d987c256c85",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:5c6f9122ab67b93d171dc0bef008a407817cd86852b2c2f670c35c40a5948a62",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "2.0.0",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.0",
+      "digest": "sha256:143a67da43b21d617914f47a43c40f4026d7342e88c7688523ba0e9890393d77",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:1790514c865dbee9b208d7d6e5cc97c47f479f246d6ca7c5854890d3ecf05be1",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "2.0.1",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.1",
+      "digest": "sha256:95781b29a3e0c5d532b629f03679f15c12b77299e95586758391933097fd37ab",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:4b594d2847a23064e41a113f979b64a336c8bca0198ad91199f99d49f06a9590",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "2.0.2",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.2",
+      "digest": "sha256:cf1e4808fd5891158a3fb481a16533504e4b071278eeb0e837ae0bbfc893f8ed",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:cf7077e1fd28bd26cf91812d3c9beadbdb8baf09fac6e2bd3cb3223595bc4850",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "2.0.3",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.3",
+      "digest": "sha256:ca45624aaf23935acb55d50e7d13853e7c1ed1399fe53a60b4fd2e61d5ef90cb",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:0caabdd1cb5c22dd2abc04d6d7f703c12d41b637a1ccba6390382b8fe082b73c",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "2.0.4",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.4",
+      "digest": "sha256:359df053046ba7f3efa74dfc4adc9dd851695c7c33d37a30e5f0baf0edb5af85",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:e771ae5ab4d0a597423de52060fda5a8a7d503beeea62da16f04ccd614fd0a82",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "2.0.5",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.5",
+      "digest": "sha256:cb0838fb26800eb4516ac2846583a2f860e289dd0c395fb58b1fc619489f7f93",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:4b726c9314acff26370d9e4ac2ec1f8e7beaa125542540fca1eab4e5c8c64002",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    },
+    {
+      "cniVersion": "2.0.6",
+      "image": "uhub.service.ucloud.cn/andrew/cni-vpc-init:2.0.6",
+      "digest": "sha256:3bfd4eb2f4b98ffbc7b79d88b1d99c04cefcb8e54f8a6c0e78722a4fb521a105",
+      "nodeSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-node@sha256:dc24be9b848a17c6bbc387d8664cbae9e7eb6adba64174e663d775001ec31dd5",
+      "initSource": "uhub.service.ucloud.cn/uk8s/cni-vpc-init@sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d"
+    }
+  ]
+}

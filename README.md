@@ -134,6 +134,9 @@ make ipamd          # Build ipamd binary file and docker image
 make vip-controller # Build vip-controller binary file and docker image
 ```
 
+To package released historical CNI binaries with the `2.0.6` init installer
+without recompiling them, see [historical init images](dockerfiles/cnivpc-init-legacy/README.md).
+
 ### Release
 
 As long as you create a tag, all docker images will be automatically built and published through [Github Action](https://docs.github.com/en/actions). See: [release workflow](.github/workflows/release.yml).

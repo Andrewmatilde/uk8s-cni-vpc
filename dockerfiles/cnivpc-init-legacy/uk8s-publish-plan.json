@@ -1,0 +1,118 @@
+{
+  "status": "published_and_verified",
+  "destination": "uhub.service.ucloud.cn/uk8s/cni-vpc-init",
+  "images": [
+    {
+      "version": "1.3.0",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:3a84c1a21d1898e9af69b52733151bc2c9fd304cbba40c360d168cfcc307fe80",
+      "verified": true
+    },
+    {
+      "version": "1.3.1",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:e2a4cdeb907deaac1190d064cae76f308f3673042886e68f88ef9166f4168817",
+      "verified": true
+    },
+    {
+      "version": "1.3.2",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:42bae9df84fbf9438a6e8a5d6ce981d2f08dfbc6ecfe4bb50d4966dc50430b95",
+      "verified": true
+    },
+    {
+      "version": "1.3.3",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:650d0535fdab54db84cf34938e5eb0ae18c6d5b6710cf5e48f06e2c674bd0c14",
+      "verified": true
+    },
+    {
+      "version": "1.3.4",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:a010a22505361f255cf331c62954f45b05e84d0eedb8bc1c0645137dcc967b37",
+      "verified": true
+    },
+    {
+      "version": "1.3.5",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:6f0bb1aca76d64a304cfc1318acd8fa06c659620dbe3b724f9300daf355231fa",
+      "verified": true
+    },
+    {
+      "version": "1.3.6",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:0a22dd5ff2bb0e769c43ec24c015247211974fc92e3bef4f0ec6db476d4e52b3",
+      "verified": true
+    },
+    {
+      "version": "2.0.0",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:41cd387fb6fdfb8541eaf25bfb0f15502d012a72c4ccee063a6b3caa5c99c1f9",
+      "verified": true
+    },
+    {
+      "version": "2.0.1",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:092748c39d826f799389e14223e5a7834c9b754e5ac035269eb923d31a67eca4",
+      "verified": true
+    },
+    {
+      "version": "2.0.2",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:22e8b88dae584647ac45d6c61eb788a5a0b19e81c6fe289ce89852cc23c68947",
+      "verified": true
+    },
+    {
+      "version": "2.0.3",
+      "repo": "andrew",
+      "action": "copy",
+      "digest": "sha256:9deeaab82469a474251c79f2cf94d173ef7bfefa761c08a1bdfb5af465c5ede5",
+      "verified": true
+    },
+    {
+      "version": "2.0.4",
+      "repo": "uk8s",
+      "action": "preserve",
+      "digest": "sha256:c5c44f582d0bfda46abc11f5c6da2c883c36b5a6604e8be5953a66546d0f2cdd",
+      "verified": true
+    },
+    {
+      "version": "2.0.5",
+      "repo": "uk8s",
+      "action": "preserve",
+      "digest": "sha256:2ad99fac17ece50e68ac25726958fbaf78126cf6b1fd843307aee025d02b6116",
+      "verified": true
+    },
+    {
+      "version": "2.0.6",
+      "repo": "uk8s",
+      "action": "preserve",
+      "digest": "sha256:b574757edcb1f706f3d03b1a9687154034c817f5302f4fe0b0b22777ff87262d",
+      "verified": true
+    },
+    {
+      "version": "2.0.0-alpha.5",
+      "repo": "uk8s",
+      "action": "preserve",
+      "digest": "sha256:acd5dd990f09bce2fd696e4eb400561cd7c2863580b270973078d84cb3db039d",
+      "verified": true
+    },
+    {
+      "version": "0.200.4",
+      "repo": "uk8s",
+      "action": "preserve",
+      "digest": "sha256:5883054e0793bfaca105dc6b97f3647593866340954d50f70d0da34da21602cb",
+      "verified": true
+    }
+  ]
+}
